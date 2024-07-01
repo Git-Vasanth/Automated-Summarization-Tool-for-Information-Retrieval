@@ -4,10 +4,10 @@
 This project utilizes Streamlit and OpenAI's vector embeddings to read PDF documents and answer questions based on their content. For instance, using a US amendments PDF as an example, the model can interpret and respond to queries such as explaining the first three amendments in simple terms, suitable for a toddler's understanding.
 
 **Resources:**
-* OpenAi
-* Langchian
+* [OpenAi](https://platform.openai.com/docs/overview)
+* [Langchian](https://python.langchain.com/v0.2/docs/introduction/)
 * [Chatgpt](https://chatgpt.com/)
-* HugggingFace
+* [HugggingFace](https://huggingface.co/)
 
 **Key Details:**
 
