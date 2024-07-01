@@ -2,8 +2,7 @@
 
 ## Project Description:
 
-This project utilizes Streamlit and OpenAI's vector embeddings to read PDF documents and answer questions based on their content. For instance, using a US amendments PDF as an example, the model can interpret and respond to queries such as explaining the first three amendments in simple terms, suitable for a toddler's understanding.
-
+This project harnesses Streamlit and OpenAI's vector embeddings to ingest and analyze PDF documents, enabling it to answer queries based on their content. For example, using a US amendments PDF, the system can interpret and respond to inquiries such as explaining the first three amendments in simplistic terms suitable for a layperson.
 ## Resources:
 * [OpenAi](https://platform.openai.com/docs/overview)
 * [Langchian](https://python.langchain.com/v0.2/docs/introduction/)
@@ -12,13 +11,13 @@ This project utilizes Streamlit and OpenAI's vector embeddings to read PDF docum
 
 ## Key Details:
 
-**Functionality:** The project leverages Streamlit for PDF reading and OpenAI's vector embeddings for understanding and processing queries.
+**Functionality:** The system utilizes Streamlit for robust PDF parsing and integrates OpenAI's vector embeddings for advanced natural language understanding and query processing.
 
-**Accuracy:** It reliably provides answers to questions, stating "I don't have context to answer" when it encounters unfamiliar queries.
+**Accuracy:** It provides reliable responses to queries, gracefully handling unfamiliar topics with a response indicating lack of context.
 
-**Speed:** Responses are generated within 3 seconds, ensuring quick interaction.
+**Speed:** Responses are generated in under 3 seconds, ensuring rapid user interaction and feedback
 
-**Improvement Plans:** Future plans include enhancing its conversational abilities and deploying the system on AWS for broader accessibility.
+**Improvement Plans:** Future enhancements aim to bolster conversational capabilities through advanced dialogue management techniques. Additionally, deployment on AWS is planned to expand accessibility and scalability.
 
 **Screenshots:**
 
