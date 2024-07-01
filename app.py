@@ -26,8 +26,6 @@ def get_pdf_text(pdf_docs):
         pdf_reader = PdfReader(pdf)
         for page in pdf_reader.pages:
             text += page.extract_text()
-    
-    st.write('get pdf text done')
 
     return text
 
@@ -40,8 +38,6 @@ def get_text_chunks(text):
     )
     chunks = text_splitter.split_text(text)
 
-    st.write('get text chuks done')
-
     return chunks
 
 def get_vectorstore(text_chunks):
@@ -49,9 +45,6 @@ def get_vectorstore(text_chunks):
     # embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-xl")
     vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
     vectorstore.save_local("faiss_index")
-
-    st.write('get HuggingFace embeddings done')
-
     return vectorstore
 
 def get_conversational_chain():
