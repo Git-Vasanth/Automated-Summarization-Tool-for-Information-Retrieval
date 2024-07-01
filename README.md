@@ -2,7 +2,7 @@
 
 ## Project Description:
 
-This project harnesses Streamlit and OpenAI's vector embeddings to ingest and analyze PDF documents, enabling it to answer queries based on their content. For example, using a US amendments PDF, the system can interpret and respond to inquiries such as explaining the first three amendments in simplistic terms suitable for a layperson.
+The MultiPDF Chat App is a Python application that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
 ## Resources:
 * [OpenAi](https://platform.openai.com/docs/overview)
 * [Langchian](https://python.langchain.com/v0.2/docs/introduction/)
