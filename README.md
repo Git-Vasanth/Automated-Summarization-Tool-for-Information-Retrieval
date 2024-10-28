@@ -1,4 +1,4 @@
-# Chat With Multiple PDFs
+# Automated Summarization Tool for Information Retrieval
 
 ## Project Description:
 
